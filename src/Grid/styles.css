@@ -15,7 +15,7 @@ body,
   --background: #09090a;
 }
 
-.app {
+.container {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 10vh 80vh 10vh;
@@ -26,7 +26,7 @@ body,
   /* gap: 20px; */
 }
 
-.center {
+.container > * {
   display: flex;
   align-items: center;
   justify-content: center;

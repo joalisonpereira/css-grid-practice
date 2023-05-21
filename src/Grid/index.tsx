@@ -1,8 +1,8 @@
-import "./App.css";
+import "./styles.css";
 
 function App() {
   return (
-    <div className="app">
+    <div className="container">
       <header className="center">header</header>
       <main className="center">main</main>
       <aside className="center">aside</aside>
